@@ -10,6 +10,7 @@ body {
 
 .navbar-expand-lg{
   font-size: 70px;
+  font-weight: 600;
 }
 
 
@@ -44,6 +45,17 @@ body {
     border-right: 15px solid #cc27276b;
 }
 
+.slbCaption {
+    background: #ffffff;
+    font-size: 30px ;
+    font-weight: 600 ;
+    padding: 10px ;
+    color: black ;
+}
 
 
+      border: 10px solid #885800;
+    border-left: 15px solid #793434a8;
+    border-right: 15px solid #cc27276b;
+    
     -webkit-mask-image: radial-gradient(ellipse at center, white 60%, transparent, 93%, transparent 100%);
