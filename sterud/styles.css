@@ -1,0 +1,49 @@
+/* css styles */
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+
+body {
+ background-image: url("imgAbout/1288325.jpg");
+ background-color: #cccccc;
+ color: white;
+ font-family: Shalimar;
+}
+
+.navbar-expand-lg{
+  font-size: 70px;
+}
+
+
+.navbar-brand {
+      display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    line-height: @navbar-height
+  
+}
+
+.navbar-title{
+  font-size: 70px;
+}
+
+.bi{
+      line-height: 110px;
+    vertical-align: text-bottom;
+    font-size: 30px;
+    right: 60px;
+    bottom: 50px;
+    width: 50px;
+}
+
+.navbar-dark {
+    background-color: #cccccc00;
+}
+
+.pixgallery-image-grid{
+      border: 10px solid #885800;
+    border-left: 15px solid #793434a8;
+    border-right: 15px solid #cc27276b;
+}
+
+
+
+    -webkit-mask-image: radial-gradient(ellipse at center, white 60%, transparent, 93%, transparent 100%);
