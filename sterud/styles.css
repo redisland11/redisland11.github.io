@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body {
- background-image: url("imgAbout/1288325.jpg");
+  background-image: url("imgAbout/1288325.jpg");
  background-color: #cccccc;
  color: white;
  font-family: Raleway;
@@ -13,12 +13,11 @@ body {
   font-weight: 500;
 }
 
-
 .navbar-brand {
-      display: inline-block;
-    margin: 0 auto;
-    padding: 0;
-    line-height: @navbar-height
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  line-height: @navbar-height
   
 }
 
@@ -27,32 +26,32 @@ body {
 }
 
 .bi{
-      line-height: 65px;
-    vertical-align: text-bottom;
-    font-size: 30px;
-    right: 60px;
-    bottom: 50px;
-    width: 50px;
+  line-height: 65px;
+  vertical-align: text-bottom;
+  font-size: 30px;
+  right: 60px;
+  bottom: 50px;
+  width: 50px;
 }
 
 .navbar-dark {
-    background-color: #cccccc00;
+  background-color: #cccccc00;
 }
 
 .pixgallery-image-grid{
-      border: 3px solid #ffffff;
+  border: 3px solid #ffffff;
 }
 
 .slbCaption {
-    background: #ffffff;
-    font-size: 30px ;
-    font-weight: 600 ;
-    padding: 10px ;
-    color: black ;
+  background: #ffffff;
+  font-size: 30px ;
+  font-weight: 600 ;
+  padding: 10px ;
+  color: black ;
 }
 
 
-      border: 10px solid #885800;
+    border: 10px solid #885800;
     border-left: 15px solid #793434a8;
     border-right: 15px solid #cc27276b;
     
