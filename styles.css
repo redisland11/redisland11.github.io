@@ -1,16 +1,16 @@
 /* css styles */
-@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body {
  background-image: url("imgAbout/1288325.jpg");
  background-color: #cccccc;
  color: white;
- font-family: Shalimar;
+ font-family: Raleway;
 }
 
 .navbar-expand-lg{
-  font-size: 70px;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight: 500;
 }
 
 
@@ -23,11 +23,11 @@ body {
 }
 
 .navbar-title{
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .bi{
-      line-height: 110px;
+      line-height: 65px;
     vertical-align: text-bottom;
     font-size: 30px;
     right: 60px;
@@ -40,9 +40,7 @@ body {
 }
 
 .pixgallery-image-grid{
-      border: 10px solid #885800;
-    border-left: 15px solid #793434a8;
-    border-right: 15px solid #cc27276b;
+      border: 3px solid #ffffff;
 }
 
 .slbCaption {
