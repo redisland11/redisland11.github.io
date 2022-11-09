@@ -7,6 +7,11 @@ body {
  color: white;
  font-family: Raleway;
 }
+body .page-columns {
+    display: grid;
+    gap: 0;
+    grid-template-columns: [screen-start] 1.5em [screen-start-inset] 5fr [page-start page-start-inset] 35px [body-start-outset] 35px [body-start] 1.5em [body-content-start] minmax(500px, calc(850px - 3em)) [body-content-end] 1.5em [body-end] 35px [page-end-inset] 35px [page-end] 5fr [screen-end-inset] 1.5em [screen-end];
+}
 
 .navbar-expand-lg{
   font-size: 40px;
