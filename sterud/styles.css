@@ -1,4 +1,3 @@
-/* css styles */
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body {
@@ -7,6 +6,7 @@ body {
  color: white;
  font-family: Raleway;
 }
+
 body .page-columns {
     display: grid;
     gap: 0;
@@ -23,7 +23,6 @@ body .page-columns {
   margin: 0 auto;
   padding: 0;
   line-height: @navbar-height
-  
 }
 
 .navbar-title{
@@ -54,10 +53,3 @@ body .page-columns {
   padding: 10px ;
   color: black ;
 }
-
-
-    border: 10px solid #885800;
-    border-left: 15px solid #793434a8;
-    border-right: 15px solid #cc27276b;
-    
-    -webkit-mask-image: radial-gradient(ellipse at center, white 60%, transparent, 93%, transparent 100%);
