@@ -1,56 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
+/* Hela sidans bakgrund */
 body {
   background-image: url("imgAbout/bgr.jpg");
  background-color: #cccccc;
  color: white;
  font-family: Raleway;
 }
-
+/* Fixar till layout-positioner */
 body .page-columns {
     display: grid;
     gap: 0;
     grid-template-columns: [screen-start] 0em [screen-start-inset] 1fr [page-start page-start-inset] 0px [body-start-outset] 0px [body-start] 1.5em [body-content-start] minmax(320px, calc(850px - 3em)) [body-content-end] 1.5em [body-end] 0px [page-end-inset] 0px [page-end] 1fr [screen-end-inset] 0em [screen-end];
 }
-
+/* Ram på galleribilderna */
 .navbar-expand-lg{
-  font-size: 40px;
-  font-weight: 500;
+  font-size: 2vw;
 }
-
+/* Rubriken */
 .navbar-brand {
   display: inline-block;
   margin: 0 auto;
   padding: 0;
   line-height: @navbar-height
 }
-
+/* Storlek på rubriken */
 .navbar-title{
-  font-size: 5vw;
+  font-size: 3.5vw;
 }
+/* Justering av Instagramikonens position */
+nav .nav-item.compact .nav-link{
+  display: inline-flex;  
+}
+/* Instagramikonens */
 
 .bi{
-  line-height: 65px;
-  vertical-align: text-bottom;
-  font-size: 30px;
+  font-size: 2vw;
   right: 60px;
   bottom: 50px;
   width: 50px;
 }
-
+/* Transparent bakgrundsfärg i topmenyn */
 .navbar-dark {
   background-color: #cccccc00;
 }
-
+/* Ram på galleribilderna */
 .pixgallery-image-grid{
   border: 3px solid #ffffff;
 }
-.slbImage{
-  padding-bottom: 0px;
-}
+/* Bakgrund och storlek på bildbeskrivningarna */
 .slbCaption {
   background: #efefef;
-  font-size: 2vw ;
+  font-size: min(4vw, 23px) ;
   padding: 10px ;
   color: black ;
+}
+/* Bakgrund och storlek på bildbeskrivningarna */
+.nav-footer{
+  background: #efefef20;
 }
