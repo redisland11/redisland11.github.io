@@ -58,3 +58,8 @@ nav .nav-item.compact .nav-link{
 .nav-footer{
   background: #efefef20;
 }
+
+.navbar-toggler {
+    color: #fdfeff;
+    border-color: rgba(253,254,255,0); 
+}
