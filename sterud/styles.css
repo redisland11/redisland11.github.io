@@ -12,9 +12,9 @@ body .page-columns {
     gap: 0;
     grid-template-columns: [screen-start] 0em [screen-start-inset] 1fr [page-start page-start-inset] 0px [body-start-outset] 0px [body-start] 1.5em [body-content-start] minmax(320px, calc(850px - 3em)) [body-content-end] 1.5em [body-end] 0px [page-end-inset] 0px [page-end] 1fr [screen-end-inset] 0em [screen-end];
 }
-/* Ram på galleribilderna */
+/* Sidrubriker vid brett läge */
 .navbar-expand-lg{
-  font-size: 2vw;
+  font-size: 20px;
 }
 /* Rubriken */
 .navbar-brand {
@@ -25,16 +25,15 @@ body .page-columns {
 }
 /* Storlek på rubriken */
 .navbar-title{
-  font-size: 3.5vw;
+  font-size: 36px;
 }
 /* Justering av Instagramikonens position */
 nav .nav-item.compact .nav-link{
   display: inline-flex;  
 }
 /* Instagramikonens */
-
 .bi{
-  font-size: 2vw;
+  font-size: 20px;
   right: 60px;
   bottom: 50px;
   width: 50px;
@@ -59,7 +58,67 @@ nav .nav-item.compact .nav-link{
   background: #efefef20;
 }
 
-.navbar-toggler {
+/* Collapsed meny-knapp */
+.navbar-dark .navbar-toggler {
     color: #fdfeff;
     border-color: rgba(253,254,255,0); 
 }
+.navbar-toggler-icon {
+  width: 1em;
+  height: 1em;
+}
+
+/* Meny-rubriker vid collapsed meny */
+.nav-item{
+  text-align: end;
+}
+
+/* Header när man har skrollat ned en bit*/
+.headroom--not-top{
+  background-image: url("imgAbout/bgr_header.png");
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.form-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Köpformulär */
+.form-container {
+  color: black;
+}
+
+/* Köpformulär */
+.table {
+  color: white;
+}
+
+
