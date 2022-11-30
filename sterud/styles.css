@@ -72,6 +72,14 @@ nav .nav-item.compact .nav-link{
 .nav-item{
   text-align: end;
 }
+.nav-link .menu-text{
+  color: #bfbfbf;
+}
+
+.nav-link.active .menu-text{
+  color: white;
+  text-decoration: underline;
+}
 
 /* Header när man har skrollat ned en bit*/
 .headroom--not-top{
@@ -121,4 +129,21 @@ input[type=submit]:hover {
   color: white;
 }
 
+h1, .h1 {
+  font-size: 70px;
+  text-align: center;
+}
 
+.form-container {
+    color: white;
+    background-color: transparent;
+}
+
+.index_header {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.et_pb_section.et_pb_section_0{
+  border: solid;
+}
