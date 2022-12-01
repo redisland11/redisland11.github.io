@@ -52,6 +52,12 @@ nav .nav-item.compact .nav-link{
 .pixgallery-image-grid{
   border: 3px solid #ffffff;
 }
+
+.a .tooltip {
+   pointer-events : none;
+}
+.a .tooltip:hover{display : none}
+
 /* Bakgrund och storlek på bildbeskrivningarna */
 .slbCaption {
   background: #efefef;
@@ -61,7 +67,8 @@ nav .nav-item.compact .nav-link{
 }
 /* Bakgrund och storlek på bildbeskrivningarna */
 .nav-footer{
-  background: #efefef20;
+  background: #efefef30;
+  color: #101010;
 }
 
 /* Collapsed meny-knapp */
@@ -80,6 +87,11 @@ nav .nav-item.compact .nav-link{
 }
 .nav-link .menu-text{
   color: #bfbfbf;
+}
+
+.page-columns .content {
+  margin-top: 5px;
+  padding-top: 0px !important;
 }
 
 .nav-link.active .menu-text{
@@ -136,6 +148,7 @@ input[type=submit]:hover {
 }
 
 h1.title, .title.h1 {
+  padding-top: 10px;
   font-size: min(50px, 10vW);
 }
 
@@ -165,4 +178,28 @@ background-image:url("imgAbout/mainPic4.png");
   float:right;
   padding: 10px;
   margin-bottom: 0px;
+}
+
+.table{
+  border-color: #777;
+  margin: 0
+}
+.table>thead{
+  border-color: #fff !important;
+}
+.table>:not(:first-child) {
+  border-top: 0;
+}
+.table tr:last-child{
+  border-color: #fff;
+}
+
+
+.et_pb_column_6{
+  float: right !important;
+  text-align: right;
+}
+.et_pb_column_12{
+  text-align: right;
+  float: right !important;
 }
