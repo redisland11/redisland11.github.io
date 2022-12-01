@@ -135,7 +135,7 @@ input[type=submit]:hover {
   color: white;
 }
 
-h1, .h1 {
+h1.title, .title.h1 {
   font-size: min(50px, 10vW);
 }
 
