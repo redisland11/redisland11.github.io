@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/onzvouhr/public_html/
-    - /bin/cp -R sterud $DEPLOYPATH
+    - /bin/cp -R $DEPLOYPATH
