@@ -27,6 +27,12 @@ body .page-columns {
 .navbar-title{
   font-size: 36px;
 }
+
+@media (max-width:767px){
+  .navbar-title{font-size: 4vw;}
+}
+
+
 /* Justering av Instagramikonens position */
 nav .nav-item.compact .nav-link{
   display: inline-flex;  
@@ -49,7 +55,7 @@ nav .nav-item.compact .nav-link{
 /* Bakgrund och storlek på bildbeskrivningarna */
 .slbCaption {
   background: #efefef;
-  font-size: min(4vw, 23px) ;
+  font-size: min(4vw, 14px) ;
   padding: 10px ;
   color: black ;
 }
@@ -130,8 +136,7 @@ input[type=submit]:hover {
 }
 
 h1, .h1 {
-  font-size: 70px;
-  text-align: center;
+  font-size: min(50px, 10vW);
 }
 
 .form-container {
@@ -146,4 +151,18 @@ h1, .h1 {
 
 .et_pb_section.et_pb_section_0{
   border: solid;
+}
+
+.imageContainer {
+background-image:url("imgAbout/mainPic4.png");
+  height: 40vw;
+  background-position: 50% 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quarto-figure {
+  float:right;
+  padding: 10px;
+  margin-bottom: 0px;
 }
