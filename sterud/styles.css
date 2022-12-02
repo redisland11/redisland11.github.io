@@ -193,7 +193,13 @@ background-image:url("imgAbout/mainPic4.png");
 .table tr:last-child{
   border-color: #fff;
 }
-
+.g-col-6 .table>tbody{
+  border-color: #ffffff00 !important;
+  margin: 0
+}
+.g-col-6 .table tr:last-child{
+  border-color: #ffffff00;
+}
 
 .et_pb_column_6{
   float: right !important;
@@ -202,4 +208,8 @@ background-image:url("imgAbout/mainPic4.png");
 .et_pb_column_12{
   text-align: right;
   float: right !important;
+}
+
+.skovde{
+  border: solid white;
 }
